@@ -400,7 +400,7 @@
       <div class="container is-max-desktop">
       <div class="column has-text-centered is-full-width">
         <div class="column is-full-width ">
-          <h2 class="title is-3">EBA Video</h2>
+          <h2 class="title is-3">Embodied AI Video</h2>
           <p class="has-text-centered mb-4" style="font-size: 0.95em; color: #555;">
             Each video shows <strong>stereo video (left)</strong> side-by-side with the corresponding <strong>depth estimation (right)</strong>.
           </p>
@@ -415,6 +415,27 @@
                 <source src="materials/eba_video/stitched/left_stereo2_with_depth_vis2.mp4" type="video/mp4">
               </video>
             </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+
+    <section class="section">
+      <div class="container is-max-desktop">
+      <div class="column has-text-centered is-full-width">
+        <div class="column is-full-width ">
+          <h2 class="title is-3">Extension to Multi-view Video Generation</h2>
+          <div class="content has-text-justified">
+            <p>
+              Our proposed Unified Camera-Frame RoPE is not only effective for stereo generation, but can also be directly extended to multi-view video generation. After embedding our method into the Wan model, we can directly obtain the following result <strong>without any additional training</strong>. This further demonstrates both the effectiveness of our method and its strong ability to leverage video model priors.
+            </p>
+          </div>
+          <div class="content has-text-justified">
+            <video autoplay controls muted loop style="width: 100%; height: auto; display: block;">
+              <source src="./materials/mv-prope.mp4" type="video/mp4">
+            </video>
           </div>
         </div>
       </div>
@@ -567,17 +588,17 @@
         </tr></thead> -->
 
 
-  <!-- <section class="section " id="BibTeX">
+  <section class="section " id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>@article{sun2024splatter,
-        title={Splatter a Video: Video Gaussian Representation for Versatile Processing},
-        author={Sun, Yang-Tian and Huang, Yi-Hua and Ma, Lin and Lyu, Xiaoyang and Cao, Yan-Pei and Qi, Xiaojuan},
-        journal={arXiv preprint arXiv:2406.13870},
-        year={2024}
+      <pre><code>@article{sun2026stereo,
+        title={Stereo World Model: Camera-Guided Stereo Video Generation},
+        author={Sun Yang-Tian and Huang Zehuan and Niu Yifan and Ma Lin and Cao Yan-Pei and Ma Yuewen and Qi Xiaojuan},
+        journal={xxx},
+        year={2026}
       }</code></pre>
     </div>
-  </section> -->
+  </section>
 
   <div class="container is-max-desktop">
   <div class="columns is-centered">
