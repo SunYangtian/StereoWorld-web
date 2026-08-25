@@ -11,7 +11,7 @@ window.SITE_DATA = {
     ],
     footer: {
       note: "StereoWorld project page.",
-      credit: "Design inspired by the Nerfies / academic-project-page lineage.",
+      credit: "",
       contact: "mailto:sunyangtian98@gmail.com",
     },
   },
@@ -119,7 +119,7 @@ window.SITE_DATA = {
           type: "gallery",
           id: "stereo-depth",
           title: "Stereo Depth",
-          body: "Each video shows <strong>stereo video (left)</strong> side-by-side with the corresponding <strong>depth estimation (right)</strong>.",
+          body: "<span style='white-space:nowrap'>Each video shows <strong>stereo video (left)</strong> side-by-side with the corresponding <strong>depth estimation (right)</strong>.</span>",
           columns: 2,
           items: [
             { src: "assets/stereo_depth/stereo_video1_with_disp_vis1.mp4" },
@@ -192,7 +192,7 @@ window.SITE_DATA = {
         "  year={2026}\n" +
         "}",
 
-      acknowledgements: "The website template is borrowed from <a href='https://nerfies.github.io/'>Nerfies</a>.",
+      acknowledgements: "",
     },
   ],
 
